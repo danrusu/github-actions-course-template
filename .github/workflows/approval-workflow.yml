@@ -1,7 +1,7 @@
-name: Team approva workflow
+name: Team approval workflow
 
 on: pull_request_review
-
+# comment
 jobs:
   labelWhenApproved: 
     runs-on: ubuntu-latest
